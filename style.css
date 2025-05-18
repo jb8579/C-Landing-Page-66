@@ -1,0 +1,1331 @@
+/* 
+font-family: "Play", sans-serif;
+*/
+
+/* 
+
+font-family: "Montserrat", sans-serif;
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Play:wght@400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+body {	
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    font-weight: 400;    
+	background: #fff;
+	color: #333333;	
+}
+
+a,a:hover {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+::selection {
+    color: white; 
+    background: #ff7675;
+}
+
+::-webkit-selection {
+    color: white; 
+    background: #ff7675;
+}
+
+::-moz-selection {
+    color: white; 
+    background: #ff7675;
+}
+
+/*--- main  start ---*/
+.main {
+   overflow: hidden;
+}
+
+.mainontariobet-area {
+    background-image: url('img/mainbg.png');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    padding: 0 0px;
+}
+
+/*--- header-area start ---*/
+.header-area {
+    padding: 0 1px;
+}
+
+.header-logo {
+    height: 103px;
+    display: grid;
+    align-items: center;
+    position: relative;
+    z-index: 999;
+}
+
+.header-logo img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+}
+
+
+
+.headerbg1 {
+    width: 100%;
+    display: block;
+    height: 103px;
+    position: absolute;
+    top: 0;
+    z-index: 99;
+    left: 0px;    
+}
+
+
+.mbheaderbg1 {
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*--- hero-area start --*/
+.hero-area {
+  padding: 60px 0;
+  padding-bottom: 35px;
+  position: relative;
+  z-index: 111;
+}
+
+.hero-part {
+    display: flex;
+    gap: 10px;
+    align-items: end;
+    position: relative;
+    z-index: 11;
+}
+
+.hero-left {
+    width: 50%;
+}
+
+.hero-right {
+    width: 50%;
+}
+
+.hero-left h1 {
+    font-family: "Play", sans-serif;
+    color: #000;
+    font-size: 56px;
+    margin: 0;
+    font-weight: bold;
+    line-height: 80px;
+    padding-bottom: 25px;
+}
+
+.hero-left h5 {
+    color: #000;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 38px;
+    margin: 0;   
+}
+
+.hero-left ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    padding-top: 30px;
+}
+
+.hero-left ul li {
+    display: inline-block;
+    padding-right: 10px;
+    line-height: 35px;
+}
+
+.hero-left ul li:last-child {
+    padding-right: 0px;
+}
+
+
+.hero-left ul li span {
+    font-family: "Play", sans-serif;
+    color: #fff;
+    font-size: 16px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: block;
+    background: linear-gradient(75.56deg, #090979 -74.03%, #8F06A4 8.1%, #7A0BDD 81.27%);
+    text-align: center;
+    border-radius: 50%;
+    font-weight: 700;
+    position: relative;
+    top: 9px;
+}
+
+.hero-left ul li p {
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 0;
+    padding-left: 37px;
+    margin-top: -24px;  
+}
+
+.hero-left a {
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    width: 163px;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #00BB2F;
+    border-radius: 50px;
+    margin-top: 55px;
+    transition: 0.3s all ease;
+}
+
+.hero-left a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.hero-right img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    position: relative;
+    bottom: -20px;
+    z-index: 999;
+}
+
+.herotpimg1 {
+    position: absolute;
+    top: -170px;
+    max-width: 100%;
+    transform: rotate(360deg);
+}
+
+.herotpimg2 {
+    position: absolute;
+    top: -41px;
+    height: 440px;
+    right: 100px;
+    width: 500px;
+}
+
+
+
+/*--- ontariobet-wlbs-area start --*/
+.ontariobet-wlbs-area {
+    background-color: #fff;
+    padding: 70px 0;
+    padding-bottom: 40px;
+}
+
+.ontariobet-wlbs-part {
+    display: flex;
+    gap: 30px;
+}
+
+.ontariobet-wlbs-left {
+    width: 70%;
+}
+
+.ontariobet-wlbs-right {
+    width: 30%;
+}
+
+
+.ontariobet-wlbslt-part {
+    background: linear-gradient(93.64deg, #090979 0.57%, #8F06A4 71.13%, #7A0BDD 133.99%);
+    border-radius: 15px;
+    padding: 40px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    height: 471px;  
+}
+
+.ontariobet-wlbslt-left {
+    width: 40%;
+}
+
+.ontariobet-wlbslt-right {
+    width: 60%;
+}
+
+.ontariobet-wlbslt-left img {
+    max-width: 100%;
+    display: block;
+}
+
+.ontariobet-wlbslt-item1 {
+    padding-bottom: 20px;
+}
+
+.ontariobet-wlbslt-item1 h2 {
+    font-family: "Play", sans-serif;
+    color: #fff;
+    font-size: 38px;
+    font-weight: bold;
+    padding-bottom: 12px;
+}
+
+.ontariobet-wlbslt-item1 h3 {
+    font-family: "Play", sans-serif;
+    color: #FFBE0B;
+    font-size: 37px;
+    font-weight: bold;
+}
+
+.ontariobet-wlbslt-item1 p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+    padding-top: 20px;
+    line-height: 30px;
+}
+
+
+
+.ontariobet-wlbslt-item2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 34px;
+    justify-content: space-around;
+    grid-row-gap: 15px;
+    padding-top: 10px;
+}
+
+
+.ontariobet-wlbslts {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.ontariobet-wlbslts-img {
+    width: 24px;
+}
+
+.ontariobet-wlbslts-text {
+    width: 84%;
+}
+
+
+.ontariobet-wlbslts-img img {
+   max-width: 100%;
+   display: block;
+}
+
+.ontariobet-wlbslts-text p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+
+
+
+
+.ontariobet-wlbslt-item3 a {
+    color: #000;
+    font-size: 16px;
+    font-weight: bold;
+    width: 164px;
+    display: block;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    background-color: #FFBE0B;
+    border-radius: 50px;
+    transition: 0.3s allease;
+    margin-top: 50px;
+}
+
+.ontariobet-wlbslt-item3 a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+
+.ontariobet-wlbsrt-box {
+    background: linear-gradient(-95.03deg, #090979 17.11%, #8F06A4 60.24%, #7A0BDD 98.67%);
+    border-radius: 15px;
+    padding: 40px 35px;
+    box-sizing: border-box;
+    padding-top: 0;
+    height: 471px;
+    overflow: hidden;
+}
+
+
+.ontariobet-wlbsrt-box img {
+    max-width: 100%;
+    display: block;
+    margin: auto;
+    margin-right: 0;
+    position: relative;
+    right: -35px;
+    height: 229px;
+    margin-bottom: 22px;
+}
+
+.ontariobet-wlbsrt-box h3 {
+    font-family: "Play", sans-serif;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 12px;    
+}
+
+.ontariobet-wlbsrt-box h3 span {
+    color: #FFBE0B;
+}
+
+.ontariobet-wlbsrt-box p {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    line-height: 36px;   
+}
+
+.ontariobet-wlbsrt-box a {
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    width: 129px;
+    display: block;
+    height: 46px;
+    line-height: 46px;
+    text-align: center;
+    background-color: #00BB2F;
+    border-radius: 50px;
+    transition: 0.3s all ease;
+    margin-top: 15px;
+}
+
+.ontariobet-wlbsrt-box a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+/*--- ontariobet-pcg-area start --*/
+.ontariobet-pcg-area {
+  background-color: #fff;
+  padding: 50px 0;
+  padding-bottom: 50px;
+}
+
+.ontariobet-pcg-part {
+    display: flex;
+    gap: 40px;
+}
+
+
+.ontariobet-pcg-left {
+    width: 50%;
+}
+
+.ontariobet-pcg-right {
+    width: 50%;
+}
+
+.ontariobet-pcg-left h2 {
+    font-family: "Play", sans-serif;
+    color: #000000;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 62px;
+    padding-bottom: 30px;   
+}
+
+.ontariobet-pcg-left p {
+    color: #000000;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+    line-height: 28px;
+}
+
+
+.ontariobet-pcgrt-part {
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+
+
+.ontariobet-pcgrt-part img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.ontariobet-pcgrt-text {
+    position: relative;
+    z-index: 99;
+    padding: 62px 40px;
+}
+
+
+.ontariobet-pcgrt-text h3 {
+    font-family: "Play", sans-serif;
+    color: #fff;
+    font-size: 40px;
+    text-align: right;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.ontariobet-pcgrt-text h2 {
+    font-family: "Play", sans-serif;
+    color: #FFBE0B;
+    font-size: 60px;
+    text-align: right;
+    font-weight: bold;   
+}
+
+.ontariobet-pcgrt-text p {
+    color: #fff;
+    font-size: 20px;
+    text-align: right;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 14px;  
+}
+
+
+.ontariobet-pcgrt-text a {
+    color: #ffff;
+    font-size: 18px;
+    font-weight: bold;
+    width: 163px;
+    display: block;
+    height: 48px;
+    line-height: 48px;
+    text-align: center;
+    background-color: #000;
+    border-radius: 50px;
+    transition: 0.3s allease;
+    margin: auto;
+    margin-right: 0;
+    margin-top: 31px;
+}
+
+.ontariobet-pcgrt-text a:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+
+
+/*--- ontariobet-tpg-area start --*/
+.ontariobet-tpg-area {
+  background-color: #fff;
+  padding: 50px 0;
+  position: relative;
+}
+
+.ontariobet-tpg-hd {
+    padding-bottom: 45px;
+}
+
+.ontariobet-tpg-hd h2 {
+    font-family: "Play", sans-serif;
+    color: #000000;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 62px;
+    padding-bottom: 45px;
+}
+
+
+.ontariobet-tpg-hd p {
+    color: #8F06A4;
+    font-size: 20px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ontariobet-tpg-hd p span {
+    color: #000000;
+}
+
+.ontariobet-tpg-part {
+    position: relative;
+}
+
+.ontariobet-tpg-image {
+    height: 193px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+
+.ontariobet-tpg-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.ontariobet-tpg-btn {
+    padding-top: 40px;
+}
+
+.ontariobet-tpg-btn a {
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    width: 163px;
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background-color: #FFBE0B;
+    border-radius: 50px;
+    transition: 0.3s all ease;
+}
+
+.ontariobet-tpg-btn a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+
+
+
+.customPrevBtn1 {
+    width: 35px;
+    height: 35px;
+    background: linear-gradient(101.03deg, #8500F9 -3.07%, #0078FF 107.25%);
+    line-height: 39px;
+    text-align: center;
+    border-radius: 50px;
+    position: absolute;
+    top: 40%;
+    z-index: 99;
+    right: -15px;
+    cursor: pointer;
+}
+
+.customPrevBtn1 img {
+   height: 16px;
+}
+
+
+.sliderimg1 {
+    max-width: 100%;
+    position: absolute;
+    top: -143px;
+    left: 0;
+}
+
+
+.sliderimg2 {
+    max-width: 100%;
+    position: absolute;
+    right: 0;
+    bottom: 68px;
+}
+
+
+
+
+
+/*--- ontariobet-ftpocn-area start --*/
+.ontariobet-ftpocn-area {
+  background-color: #F9F9F9;
+  padding: 80px 0;
+  padding-bottom: 60px;
+}
+
+.ontariobet-ftpocn-part h2 {
+    font-family: "Play", sans-serif;
+    color: #000000;
+    font-size: 40px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 62px;
+    padding-bottom: 25px;
+}
+
+.ontariobet-ftpocn-part p {
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    line-height: 35px;
+    padding-bottom: 30px;    
+}
+
+
+/*--- footer-area start --*/
+.footer-area {
+  background-color: #000;
+  padding: 80px 0;
+  padding-bottom: 0px;
+}
+
+.footer-part {
+    display: flex;
+    gap: 30px;
+}
+
+.footerleft {
+    width: 80%;
+}
+
+.footerright {
+    width: 20%;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+
+
+.footertext h4 {
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-size: 18px;
+    line-height: 42px;
+    margin: 0;
+    padding-bottom: 28px;
+    font-weight: 600;    
+}
+
+.footertext p {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding-bottom: 30px;
+}
+
+
+.footer-nav h3 {
+    font-family: "Montserrat", sans-serif;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin: 0;
+    line-height: 35px;
+    padding-top: 5px;
+}
+
+
+.footer-nav ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    padding-top: 40px;
+}
+
+.footer-nav ul li {
+    display: block;
+    padding-bottom: 30px;
+}
+
+.footer-nav ul li:last-child {
+    padding-bottom: 0px;
+}
+
+.footer-nav ul li a {
+    color: #fff;
+    font-size: 16px;
+    display: block;
+    font-weight: 400;
+    transition: 0.2s all ease;
+    text-decoration: underline;
+}
+
+.footer-nav ul li a:hover {
+    color: #FFBE0B;
+}
+
+.footerlogos ul {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+
+.footerlogos ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.footerlogos ul li:first-child {
+    margin-left: 0px;
+}
+
+
+.footerlogos ul li:last-child {
+    margin-right: 0px;
+}
+
+
+.footerlogos ul li a img {
+    max-width: 85%;
+    display: block;
+    margin: auto;
+}
+
+
+
+.footer-copyright {
+    border-top: 1px solid #bebebe;
+    padding: 20px 0;
+    margin-top: 30px;
+}
+
+.footer-copyright p {
+    color: #fff;
+    font-size: 14px;
+    margin: 0;
+    font-weight: 300;
+    line-height: 20px;
+    text-align: right;
+}
+
+.footer-copyright p a {
+    color: #fff;    
+}
+
+
+
+
+
+
+
+
+
+/*--- newherott-area start---*/
+.newherott-area {
+    background-color: #fff;
+    padding: 60px 0;
+}
+
+
+.newhero-heading {
+    padding-bottom: 50px;
+}
+
+.newhero-heading h2 {
+    font-family: "Play", sans-serif;
+    color: #000;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0;
+}
+
+
+.newheroitem1 h3 {
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+
+.newheroitem1 p {
+    color: #000000;
+    font-size: 14px;
+    margin: 0;
+    line-height: 26px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+
+
+.mbfooterlogos {
+    display: none;
+}
+
+
+.container {
+    max-width: 1280px;
+    display: block;
+    margin: auto;
+    padding: 0 16px;
+}
+
+
+.newheroitem1 ul {
+   padding: 0;
+   margin: 0;
+   list-style-type: none;
+   padding-bottom: 30px;
+   padding-top: 10px;
+}
+
+.newheroitem1 ul li {
+    display: block;
+    padding-bottom: 8px;
+}
+
+.newheroitem1 ul li span {
+   width: 5px;
+   height: 5px;
+   display: block;
+   background-color: #000;
+   border-radius: 50px;
+}
+
+.newheroitem1 ul li h6 {
+    color: #000000;
+    font-size: 14px;
+    margin: 0;
+    line-height: 22px;
+    font-weight: 400;
+    padding-left: 16px;
+    margin-top: -12px;
+}
+
+.newheroitem2 p {
+    padding-bottom: 0px;
+}
+
+
+.newheroitem3 ul li span {
+    color: #000000;
+    font-size: 14px;
+    width: inherit;
+    height: inherit;
+    background: none;   
+}
+
+.newheroitem3 ul li h6 {
+    color: #000000;
+    font-size: 14px;
+    margin: 0;
+    line-height: 22px;
+    font-weight: 400;
+    padding-left: 16px;
+    margin-top: -19px;
+}
+
+
+
+
+.newheroitem4 h4 {
+    color: #000000;
+    font-size: 14px;
+    margin: 0;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+
+.newheroitem4 p {
+    color: #000000;
+    font-size: 14px;
+    margin: 0;
+    line-height: 26px;
+    font-weight: 400;
+    padding: 30px 0;
+}
+
+.newheroitem5 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.newheroitem5 h3 {
+    color: #000000;
+    font-size: 16px;
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+.newheroitem5 p {
+    color: #000000;
+    font-size: 14px;
+    margin: 0;
+    line-height: 26px;
+    font-weight: 400;
+}
+
+
+.newheroitem5 h6 {
+    color: #000000;
+    font-size: 14px;
+    margin: 0;
+    line-height: 26px;
+    font-weight: 400;
+    padding-left: 8px;
+}
+
+
+.mbheader-btns {
+  display: none;
+}
+
+.popup-area {
+  padding: 0px;
+}
+
+.popuppart {
+  width: 100%;
+  margin: auto;
+  height: 630px;
+  background-color: #fff;
+  font-family: "Play", sans-serif;
+}
+
+.popupleft {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+
+.popupleft-item1 {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.popupleft-item1 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.popupright {
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  display: grid;
+  align-items: center;
+  padding: 45px 50px;
+  box-sizing: border-box;
+  margin-left: 0px;
+  position: relative;
+  z-index: 9;
+}
+
+.popupform-heading {
+  padding-bottom: 30px;
+}
+
+.popupform-heading h3 {
+    color: #8908b5;
+    font-size: 30px;
+    font-weight: 900;
+    margin: 0;
+    padding-bottom: 4px;
+}
+
+.popupform-heading p {
+  color: #212529;
+  font-size: 13px;
+  margin: 0;
+}
+
+.popupform-item1 {
+  display: flex;
+  gap: 25px;
+}
+
+.popupformitems input {
+  color: #212529;
+  font-size: 14px;
+  width: 100%;
+  font-weight: 400;
+  padding: 11px 14px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  border: 1.5px solid #d1c6e0;
+  outline: none;
+  margin-bottom: 12px;
+  background-color: #fff;
+  letter-spacing: 0.1px;
+    font-family: "Play", sans-serif;
+}
+
+.popupformitems input:focus {
+  border: 1.5px solid #004896;
+}
+
+.popupformitems input::placeholder {
+  color: #0c0c0c;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.maincheckbox {
+  padding-bottom: 2px;
+}
+
+.checkboxpart {
+  display: block;
+  position: relative;
+  padding-left: 29px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  color: #0c0c0c;
+  font-size: 13px;
+  line-height: 30px;
+  font-weight: 400;
+}
+
+.checkboxpart input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 5px;
+  left: 0;
+  height: 18px;
+  width: 18px;
+  background-color: #ffffff00;
+  border: 1px solid #272727;
+  border-radius: 0px;
+}
+
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.checkboxpart input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.checkboxpart .checkmark:after {
+  left: 7px;
+  top: 1px;
+  width: 4px;
+  height: 10px;
+  border: solid #0c0c0c;
+  border-width: 0 2px 2px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.password-container {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.password-container input {
+  padding-right: 40px;
+  width: 100%;
+}
+.toggle-password {
+  position: absolute;
+  right: 10px;
+  cursor: pointer;
+  background: none;
+  border: none;
+  width: 24px;
+  height: 24px;
+  top: 9px;
+}
+.toggle-password img {
+    filter: brightness(0) saturate(100%) invert(76%) sepia(0%) saturate(1199%) hue-rotate(340deg) brightness(91%) contrast(89%);
+    width: 15px;
+    height: 15px;
+}
+
+.popupformitems h6 {
+  color: #8366ac;
+  font-size: 11px;
+  margin: 0;
+  font-weight: 400;
+  line-height: 22px;
+  margin-top: -12px;
+  margin-bottom: 10px;
+}
+
+.popupformitems input[type="submit"] {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 600;
+    width: 100%;
+    padding: 16px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    border: none;
+    outline: none;
+    margin-bottom: 0px;
+    transition: 0.2s;
+    cursor: pointer;
+    background: linear-gradient(93.64deg, #090979 0.57%, #8F06A4 71.13%, #7A0BDD 133.99%);
+    margin-top: 28px;
+}
+
+.popupformitems input[type="submit"]:hover {
+  background-color: #000;
+}
+
+.popupform-item3 h5 {
+  color: #313131;
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+  padding-top: 18px;
+  text-align: center;
+}
+
+.popupform-item3 h5 a {
+  color: #a206d0;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.checkboxpart a{
+  color: #a206d0;
+}
+
+.ppform-item1-left {
+  width: 50%;
+}
+
+.ppform-item1-right {
+  width: 50%;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99999;
+}
+
+.popup.active {
+  display: block;
+}
+
+.close-btn {
+  width: 45px;
+  height: 45px;
+  background-color: #fff;
+  border-radius: 50%;
+  border: none;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  cursor: pointer;
+  z-index: 99;
+}
+
+.close-btn img {
+  filter: brightness(0) saturate(100%) invert(31%) sepia(6%) saturate(72%)
+    hue-rotate(177deg) brightness(97%) contrast(94%);
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000000c9;
+    z-index: 999;
+}
+
+.overlay.active {
+  display: block;
+}
+
+.mainrbmeftpd {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 20px;
+}
+
+.mainrbmeftpd .maincheckbox {
+  padding-bottom: 0px;
+}
+
+.rbmeftpd-right p {
+  margin: 0;
+}
+
+.rbmeftpd-right p a {
+  color: #a206d0;
+  font-size: 14px;
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+.loginpart {
+  padding-bottom: 40px;
+}
+
+.popupformitems p {
+    color: #212529;
+    font-size: 14px;
+    font-weight: 600;
+    padding-bottom: 4px;
+}
